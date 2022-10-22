@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  background-color: blueviolet;
+  max-width: 1640px;
+  min-width: 340px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  a {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: none;
+    height: 0;
+    &:hover {
+      transform: scale(1.1);
+      color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 3px;
+    }
+  }
+}
